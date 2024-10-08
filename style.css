@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif ;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 10px;
+    background: linear-gradient(to right, #fdf2e9, #fffbe5);
+
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight:400 ;
+}
+
+.login-btn{
+    text-decoration: none;
+    margin-right: 14px;
+    font-weight: 400;
+}
+
+.try-btn{
+    display: inline-block;
+    text-decoration:none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    color:white;
+    background-color: blue;
+    
+
+}
+
+.content-below-hero{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+span{
+    color: blue;
+}
+
+
+.content-below-hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 15px;
+}
+
+.signup-btn{
+    text-decoration: none;
+    margin-right: 14px;
+    padding: 14px 30px;
+    color:white;
+    background-color: blue;
+    border-radius:20px ;
+    
+    
+}
+
+.sign-learn-btns{
+    margin: 20px;
+    margin-top: 10%;
+}
+.learnmore-btn{
+    text-decoration: none;
+    color: blue;
+}
+
+.signup-btn {
+    margin-top: 10px;
+}
+
+.image-2,
+.image-3{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.milestone-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    background-color:  rgba(249, 251, 253, 1);
+
+}
+
+.row-item{
+    
+    margin:  10px;
+    
+
+}
+
+.row-item h2{
+    font-size: em;
+    margin: 0;
+}
+
+.row-item p{
+    font-size: 1em;
+    margin: 0;
+}
+
+.row-item span{
+    color: blue;
+}
+#one-stop{
+    margin: right 10%;
+    margin-left: 5%;
+}
+
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.left-section {
+    max-width: 50%;
+    
+
+    
+}
+
+.left-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left-section h2 span {
+    color: #007bff; /* blue color */
+}
+
+.left-section p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.right-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 50%;
+}
+
+.right-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+.right-feature h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.right-feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.plan{
+    background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.pricing-header {
+    text-align: center;
+    margin-bottom:60px;
+  }
+  
+  .pricing-header h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-header h1 span {
+    color: #0066ff; /* Highlighted color for 'price perfect' */
+  }
+  
+  .pricing-header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .pricing-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .pricing-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px); 
+  }
+  
+  
+  .basic,
+  .teams {
+    flex: 1; 
+  }
+  
+  .professional {
+    flex: 2; 
+    background-color: #0a305d;
+    color: #fff;
+  }
+  
+  .pricing-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .pricing-card .plan-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pricing-card ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card .professional h2,
+  .pricing-card .professional .price,
+  .pricing-card .professional .plan-description,
+  .pricing-card .professional ul li {
+    color: white;
+  }
+  
+  
+  .pricing-container .pricing-card {
+    margin: 0; 
+  }
+
+ .get-btn{
+    text-decoration: none;
+    margin-right: 14px;
+    padding:14px 10px ;
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+ .plan-btn{
+    margin: 25px;
+ }
+
+ .pricing-btn{
+    text-decoration: none;
+    margin-right: 14px;
+    padding: 10px 10px;
+    color:white;
+    background-color: blue;
+    border-radius:20px 
+ }
+
+.container-form{
+    background-color: #0a305d; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .url-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-text,
+  .input-select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-select {
+    width: 48%;
+  }
+  
+  .btn-submit {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056cc;
+  }
+  
+  .terms {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .terms a {
+    color: #0066ff;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+
+  .faqs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 15px;
+
+  }
+
+  .faq-content{
+    width: 600px;
+    margin: 20px;
+    line-height: 2;
+
+  }
+
+
+
+summary{
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+summary::before{
+    content:"+";
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+details[open] summary::before{
+    content: "-";
+}
+
+.link-optimization{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    ;
+    margin: 0;
+    padding: 8%;
+    
+}
+
+.link-optimization-content{
+    font-family: arial;
+    width: 600px;
+    color:white;
+
+
+
+}
+
+.link-optimization-content h3 {
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.link-optimization-content a{
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#get-started-button{
+    margin: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo-column {
+    flex-basis: 200px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }@media (max-width: 600px) {
+    /* Navigation */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 5px;
+        min-height: auto;
+    }
+
+    /* Milestones */
+    .milestone-container {
+        flex-direction: column;
+    }
+
+    /* Pricing */
+    .pricing-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .pricing-card {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    /* Form */
+    .form-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Tablets */
+@media (min-width: 600px) and (max-width: 1024px) {
+    /* Adjust navigation and margins for tablets */
+    nav ul li {
+        margin: 10px 10px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .milestone-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /* Pricing */
+    .pricing-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .pricing-card {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+    }
+
+    /* Form */
+    .form-container {
+        width: 80%;
+    }
+
+    /* Footer */
+    .footer-column {
+        flex: 1 1 45%;
+        margin-right: 10px;
+    }
+}
+
+/* (Desktops) */
+@media (min-width: 1025px) {
+
+    
+    nav ul li {
+        margin: 10px 20px;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .pricing-container {
+        width: 80%;
+    }
+
+    /* Form */
+    .form-container {
+        width: 60%;
+    }
+    
+    /* Footer */
+    .footer-column {
+        flex: 1;
+    }
+}
