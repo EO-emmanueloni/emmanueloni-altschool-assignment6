@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'poppins', sans-serif ;
-    min-width: 10vw;
+    min-width: vw;
+}
+
+body{
+
 }
 
 .hero{
     width: 100%;
-    min-height: 20vh;
+    min-height:50vh ;
     padding: 10px 10px;
     background: linear-gradient(to right, #fdf2e9, #fffbe5);
 
@@ -111,7 +115,7 @@ span{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    max-width: 800px;
+    max-width: 768x;
     margin: auto;
     background-color:  rgba(249, 251, 253, 1);
 
@@ -557,7 +561,7 @@ details[open] summary::before{
     }
     
     nav ul li {
-        margin: 10px 0;
+        margin: 5px ;
     }
 
     /* Hero Section */
@@ -585,7 +589,7 @@ details[open] summary::before{
     /* Form */
     .form-container {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
     /* Footer */
