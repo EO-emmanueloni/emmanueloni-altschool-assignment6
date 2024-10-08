@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'poppins', sans-serif ;
+    min-width: 10vw;
 }
 
 .hero{
     width: 100%;
-    min-height: 100vh;
+    min-height: 20vh;
     padding: 10px 10px;
     background: linear-gradient(to right, #fdf2e9, #fffbe5);
 
