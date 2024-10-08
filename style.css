@@ -44,11 +44,12 @@ nav ul li a{
 .try-btn{
     display: inline-block;
     text-decoration:none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 14px;
     border-radius: 30px;
     color:white;
     background-color: blue;
+    margin: auto;
     
 
 }
@@ -306,7 +307,7 @@ span{
  }
 
  .plan-btn{
-    margin: 25px;
+    margin: 2px;
  }
 
  .pricing-btn{
