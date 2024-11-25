@@ -7,7 +7,8 @@
 }
 
 body{
-
+  line-height: 1.6;
+  font-size: 15px;
 }
 
 .hero{
@@ -32,7 +33,10 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 15px;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li a{
@@ -115,8 +119,9 @@ span{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    max-width: 768x;
-    margin: auto;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
     background-color:  rgba(249, 251, 253, 1);
 
 }
@@ -129,12 +134,12 @@ span{
 }
 
 .row-item h2{
-    font-size: em;
+    font-size: 1.5em;
     margin: 0;
 }
 
 .row-item p{
-    font-size: 1em;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -442,7 +447,7 @@ details[open] summary::before{
     align-items: center;
     justify-content: center;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
-    ;
+    
     margin: 0;
     padding: 8%;
     
@@ -491,6 +496,7 @@ details[open] summary::before{
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
   }
   
   .footer-column {
@@ -559,26 +565,50 @@ details[open] summary::before{
     margin: 0;
   }@media (max-width: 600px) {
     /* Navigation */
+
+    body {
+      padding: 10px;
+    }
     nav ul {
         flex-direction: column;
-        align-items: center;
-    }
+    } 
     
     nav ul li {
-        margin: 5px ;
+        margin: 5px 0 ;
     }
 
     /* Hero Section */
     .hero {
         padding: 5px;
-        min-height: auto;
+        min-height: 30vh;
+    }
+
+    .hero-logo {
+      padding: 10px;
     }
 
     /* Milestones */
     .milestone-container {
         flex-direction: column;
+        padding: 10px;
     }
 
+    
+
+    .row-item {
+      margin: 10px 0;
+    }
+
+    .sub-container{
+      flex-direction: column;
+    }
+    .left-section, .right-section{
+      max-width: 100%;
+    }
+    .right-section{
+     
+      width: 100%;
+    }
     /* Pricing */
     .pricing-container {
         flex-direction: column;
@@ -587,23 +617,34 @@ details[open] summary::before{
     
     .pricing-card {
         margin-bottom: 20px;
-        width: 90%;
+       
     }
 
+      .faq-content {
+        width: 100%;
+      }
     /* Form */
     .form-container {
-        width: 100%;
-        padding: 10px;
+        width: 90%;
+      
     }
+
+    .link-optimization{
+      padding: 10%;
+    }
+
+    .link-optimization-content {
+      width: 100%;
+      padding: 10px;
+  }
 
     /* Footer */
-    .footer-column {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+    
 
     .social-icons {
-        justify-content: center;
+       
+        padding: 10px;
+        margin: 5px;
     }
 }
 
